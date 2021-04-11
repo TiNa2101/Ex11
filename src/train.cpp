@@ -22,24 +22,6 @@ void Train::addCage(Cage* cagein) {
   }
 }
 
-//void Train::print() {
-//  Cage* tmp = first;
-//  int count = 1;
-//  while (tmp != last) {
-//    if (tmp->get()) {
-//      std::cout << "Cage (" << count << ")  light (on)" << std::endl;
-//    } else {
-//      std::cout << "Cage (" << count << ")  light (off)" << std::endl;
-//    }
-//    count++;
-//    tmp = tmp->next;
-//  }
-//  if (tmp->get()) {
-//    std::cout << "Cage (" << count << ")  light (on)" << std::endl;
-//  } else {
-//    std::cout << "Cage (" << count << ")  light (off)" << std::endl;
-//  }
-//}
 void Train::print(int num) {
   Cage* tmp = first;
   for (int i = 0; i < num; i++) {
